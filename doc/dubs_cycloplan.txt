@@ -1,0 +1,96 @@
+*dubs_cycloplan.txt*	For Vim version 7.4.	Last change: 2015 Jan 23
+
+Dubsacks Vim -- Cycloplan IDE~
+
+CYCLOPLAN VIM IDE REFERENCE				*dubs-cycloplan*
+
+1. About Cycloplan			|dubs-ccp-about1|
+2. About Dubsacks			|dubs-ccp-about2|
+3. Cycloplan Developer Commands 	|dubs-ccp-commands|
+
+==============================================================================
+1. About Cycloplan					*dubs-ccp-about1*
+
+Cycloplan is a geowiki, route finder, and planner analysis tool.
+
+Project page: https://github.com/landonb/cycloplan
+
+This plugin: https://github.com/landonb/dubs_cycloplan
+
+==============================================================================
+2. About Dubsacks					*dubs-ccp-about2*
+
+Dubsacks is just one developer's IDE.~
+
+Project page: https://github.com/landonb/dubsacks_vim
+
+See USING.rst or ':help dubs' for lots more help.
+
+==============================================================================
+3. Cycloplan Developer Commands 			*dubs-ccp-commands*
+
+				*<F5>*
+<F5>			Build Flashclient.
+
+				*<Shift-F5>* *<S-F5>*
+<Shift-F5>		Flashclient: 'make clean'.
+
+				*<Ctrl-F5>* *<C-F5>*
+<Ctrl-F5>		Return to Flashclient 'make' output.
+
+				*<F6>*
+<F6>			Reload Apache.
+
+				*<Shift-F6>* *<S-F6>*
+<Shift-F6>		Kill Apache.
+
+				*<F7>*
+<F7>			Open Cyclopath Flashclient log.
+
+				*<F9>*
+<F9>			Open Apache log.
+
+				*<F10>*
+<F10>			Open Cyclopath Misc log.
+
+				*<F11>*
+<F11>			Open Cyclopath Routed log.
+
+				*<F12>*
+<F12>			Open Cyclopath Mr. Do! log.
+
+				*<Shift-F7>* *<S-F7>*
+<Shift-F7>		Open Flashclient log file in new gVim instance.
+
+<Ctrl-F9>	or		*<Ctrl-F9>* *<C-F9>*
+<Ctrl-F10>	or		*<Ctrl-F10>* *<C-F10>*
+<Ctrl-F11>	or		*<Ctrl-F11>* *<C-F11>* *<Ctrl-F12>* *<C-F12>*
+<Ctrl-F12>		Open associated log file in a buffer window
+			rather than in the QuickFix window.
+
+<Ctrl-Shift-F7>		or	*<Ctrl-Shift-F7>* *<C-S-F7>*
+<Ctrl-Shift-F9>		or	*<Ctrl-Shift-F9>* *<C-S-F9>*
+<Ctrl-Shift-F10>	or	*<Ctrl-Shift-F10>* *<C-S-F10>*
+<Ctrl-Shift-F11>	or	*<Ctrl-Shift-F11>* *<C-S-F11>* *<Ctrl-Shift-F12>* *<C-S-F12>*
+<Ctrl-Shift-F12>	Truncate associated log file.
+
+				*<F8>*
+<F8>			Open latest Pyserver Dump Exception.
+
+				*<Ctrl-F8>* *<C-F8>*
+<Ctrl-F8>		Open latest Pyserver Dump Request.
+
+Caveats~
+
+ Some of these techniques are dated.
+
+ For instance, rather than manually reloading the development
+ web server using F5, you could run a supervisor to do it
+ automatically whenever you save a source file.
+ 
+ Noneless, some of these commands are still interesting and
+ useful, especially the commands that load log files and
+ compiler output into the quickfix window and let you bounce
+ around the source effortlessly while fixing errors.
+
+ vim:tw=78:ts=8:ft=help:norl:
