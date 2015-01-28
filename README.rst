@@ -8,7 +8,29 @@ Cycloplan is a geowiki, route finder, and planner analysis tool.
 
 Project page: https://github.com/landonb/cycloplan
 
-Within Vim, try ``:help dubs-cycloplan``.
+Installation
+------------
+
+Standard Pathogen installation:
+
+.. code-block:: bash
+
+   cd ~/.vim/bundle/
+   git clone https://github.com/landonb/dubs_cycloplan.git
+
+Or, Standard submodule installation:
+
+.. code-block:: bash
+
+   cd ~/.vim/bundle/
+   git submodule add https://github.com/landonb/dubs_cycloplan.git
+
+Online help:
+
+.. code-block:: vim
+
+   :Helptags
+   :help dubs-cycloplan
 
 Cycloplan Developer Commands
 ----------------------------
