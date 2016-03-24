@@ -1,8 +1,8 @@
 " File: dubs_cycloplan.vim
 " Author: Landon Bouma (landonb &#x40; retrosoft &#x2E; com)
-" Last Modified: 2015.01.27
+" Last Modified: 2015.03.26
 " Project Page: https://github.com/landonb/dubs_cycloplan
-" Summary: EditPlus-inspired editing mappings
+" Summary: Cycloplan developer activity features.
 " License: GPLv3
 " -------------------------------------------------------------------
 " Copyright © 2009, 2015 Landon Bouma.
